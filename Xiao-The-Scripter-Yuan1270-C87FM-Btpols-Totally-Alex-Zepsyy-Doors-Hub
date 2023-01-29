@@ -1,0 +1,429 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+
+   Name = "Doors Hub",
+
+   LoadingTitle = "Doors Hub",
+
+   LoadingSubtitle = "by Btpols,XiaoTheScripter,Yuan1270,C87FM,TotallyAlex,Zepsyy",
+
+   ConfigurationSaving = {
+
+      Enabled = true,
+
+      FolderName = nil, -- Create a custom folder for your hub/game
+
+      FileName = "Big Hub"
+
+   },
+
+   Discord = {
+
+      Enabled = false,
+
+      Invite = "ABCD", -- The Discord invite code, do not include discord.gg/
+
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+
+   KeySettings = {
+
+      Title = "Sirius Hub",
+
+      Subtitle = "Key System",
+
+      Note = "Join the discord (discord.gg/sirius)",
+
+      FileName = "SiriusKey",
+
+      SaveKey = true,
+
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+
+      Key = "Hello"
+
+   }
+
+})
+
+local Tab = Window:CreateTab("Entities", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Spawn")
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn Rush",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/fRks2wcv'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn Ambush",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/xPSGry5a'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn Trololo Ambush By C87FM",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/Hg9k4UVP'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn A-60",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/0kcPCPgg'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn A-221",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/SEuqbDva'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn A-500 by C87FM",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/QSKs1NMj'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn LSPLASH by C87FM",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/QjYH6YeV'),true))()
+
+   end,
+
+})
+
+local Tab = Window:CreateTab("Items", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Items")
+
+local Button = Tab:CreateButton({
+
+   Name = "Skeleton Key",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/iwc2RbuH'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Crucifix",
+
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+
+  end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Guiding Candle",
+
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/CometV4/main/Items/Candle.lua",true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Skeleton Key Crucifix By TotallyAlex",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/5kG7TeTt", true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Amogus Crucifix By TotallyAlex",
+
+   Callback = function()
+
+   loadstring(game:HttpGet('https://pastebin.com/raw/YUjpGpeh'))()
+
+   end,
+
+})
+
+local Tab = Window:CreateTab("Room Mods", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Rooms")
+
+local Button = Tab:CreateButton({
+
+   Name = "Skeleton Room",
+
+   Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/Yuan13609/Skeleton-Room-By-Xiao-Crackoids-Yuan1270/main/Skeleton%20Room'),true))()
+
+   end,
+
+})
+
+firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "Hub By Xiao The Scripter,TotallyAlex,Yuan1270,Btpols,C87FM")local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+
+   Name = "Doors Hub",
+
+   LoadingTitle = "Doors Hub",
+
+   LoadingSubtitle = "by Btpols,XiaoTheScripter,Yuan1270,C87FM,TotallyAlex",
+
+   ConfigurationSaving = {
+
+      Enabled = true,
+
+      FolderName = nil, -- Create a custom folder for your hub/game
+
+      FileName = "Big Hub"
+
+   },
+
+   Discord = {
+
+      Enabled = false,
+
+      Invite = "ABCD", -- The Discord invite code, do not include discord.gg/
+
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+
+   KeySettings = {
+
+      Title = "Sirius Hub",
+
+      Subtitle = "Key System",
+
+      Note = "Join the discord (discord.gg/sirius)",
+
+      FileName = "SiriusKey",
+
+      SaveKey = true,
+
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+
+      Key = "Hello"
+
+   }
+
+})
+
+local Tab = Window:CreateTab("Entities", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Spawn")
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn Rush",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/fRks2wcv'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn Ambush",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/xPSGry5a'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn Trololo Ambush By C87FM",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/Hg9k4UVP'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn A-60",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/0kcPCPgg'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn A-221",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/SEuqbDva'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn A-500 by C87FM",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/QSKs1NMj'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Spawn LSPLASH by C87FM",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/QjYH6YeV'),true))()
+
+   end,
+
+})
+
+local Tab = Window:CreateTab("Items", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Items")
+
+local Button = Tab:CreateButton({
+
+   Name = "Skeleton Key",
+
+   Callback = function()
+
+   loadstring(game:HttpGet(('https://pastebin.com/raw/iwc2RbuH'),true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Crucifix",
+
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua"))()
+
+  end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Guiding Candle",
+
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/CometV4/main/Items/Candle.lua",true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Skeleton Key Crucifix By TotallyAlex",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/5kG7TeTt", true))()
+
+   end,
+
+})
+
+local Button = Tab:CreateButton({
+
+   Name = "Amogus Crucifix By TotallyAlex",
+
+   Callback = function()
+
+   loadstring(game:HttpGet('https://pastebin.com/YUjpGpeh'))()
+
+   end,
+
+})
+
+local Tab = Window:CreateTab("Room Mods", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Rooms")
+
+local Button = Tab:CreateButton({
+
+   Name = "Skeleton Room",
+
+   Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/Yuan13609/Skeleton-Room-By-Xiao-Crackoids-Yuan1270/main/Skeleton%20Room'),true))()
+
+   end,
+
+})
+
+firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "Hub By Xiao The Scripter,TotallyAlex,Yuan1270,Btpols,C87FM,Zepsyy")
